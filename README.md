@@ -25,10 +25,11 @@ func 𝓛𝓮𝓽𝓼𝓖𝓸𝓒𝓻𝓪𝔃𝔂() {
 - Can replace all variable names and function names (Except for `main` function in `main` package)
 - Support various fonts
 - Support change files (ended with `.go`) or a single file (also, ended with `.go`)
+- Most files should still work after been transformed. 
 - Let's think...
 
 # Why doing this
-Cause' I'm an EMO boy!
+'Cause I'm an EMO boy!
 
 # License
 GPL v3.0
