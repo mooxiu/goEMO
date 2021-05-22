@@ -14,7 +14,7 @@ var (
 	MathBoldLow = []rune("𝐚𝐛𝐜𝐝𝐞𝐟𝐠𝐡𝐢𝐣𝐤𝐥𝐦𝐧𝐨𝐩𝐪𝐫𝐬𝐭𝐮𝐯𝐰𝐱𝐲𝐳")
 
 	// Map used for store the conversion relationship
-	MyConvertMap = make(convertMap, 52) // 26 capital cases and 26 low cases
+	MyConvertMap = make(ConvertMap, 52) // 26 capital cases and 26 low cases
 )
 
 type Font int
@@ -23,7 +23,7 @@ const (
 	MathBold Font = iota
 )
 
-type convertMap map[rune]rune
+type ConvertMap map[rune]rune
 
 // For testing
 func ShowConvertMap() {
